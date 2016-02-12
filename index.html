@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+	<script src="lib/jquery-2.1.4.min.js"></script>
+	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="lib/jquery.xml2json.js"></script>
+	<script src="//d3js.org/topojson.v1.min.js"></script>
+	<script src="lib/bootstrap.js"></script>
+	<script src="lib/q.js"></script>
+	<link rel="stylesheet" href="lib/bootstrap.min.css" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header header-title">
+      Muni Tracker
+    </div>
+  </div>
+</nav>
+<div class="row container">
+	<div class="col-xs-3 route-picker" id="sf-route-picker">
+		<p class='route-title'>Routes</p>
+	</div>
+	<div class="col-xs-9">
+		<div id="errorBox"></div>
+		<div id="sf-svg-map"></div>
+	</div>
+</div>
+<script type="text/javascript" src='main.js'></script>
+<script type="text/javascript" src="bus.js"></script>
+</body>
+

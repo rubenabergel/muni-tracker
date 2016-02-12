@@ -1,0 +1,32 @@
+.navbar-header{
+	margin-top: 10px;
+    font-size: 20px;
+    padding-left: 55px
+}
+
+
+.container{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.route-picker{
+	height: 100%;
+    overflow-y: scroll;
+}
+
+.route-picker{
+	padding-left: 65px
+}
+
+.route-label{
+    border-radius: 5px;
+    color: white;
+    padding: 0px 10px;
+    margin-left: 7px
+}
